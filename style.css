@@ -1,0 +1,49 @@
+.navlogo {
+    max-width: 50px;
+    transition: 0.2s;
+}
+
+.navlogo:hover {
+    transform: rotate(15deg);
+}
+
+.s {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+
+.card {
+    transition: 0.5s;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 10px rgb(116, 116, 116);
+    transform: scale(1.05);
+}
+
+#f {
+    border-top: 1px solid rgb(182, 182, 182);
+    background-color: rgb(236, 236, 236);
+}
+
+.list-unstyled li a {
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5% 20%;
+
+}
